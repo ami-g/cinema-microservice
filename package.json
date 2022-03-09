@@ -1,0 +1,20 @@
+{
+  "name": "cinema-microservice",
+  "version": "1.0.0",
+  "description": "![](./cover.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up -d  --remove-orphans",
+    "stop": "docker-compose down && docker volume prune"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Specula-io/cinema-microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Specula-io/cinema-microservice/issues"
+  },
+  "homepage": "https://github.com/Specula-io/cinema-microservice#readme"
+}
